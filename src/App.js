@@ -37,7 +37,11 @@ const App = () => {
             About Me
             </div>
             <div className="flex justify-center">
-              <div  className="flex justify-center  text-white sm:text-base md:text-2xl w-3/4">{AboutMe}</div>
+              <div  className="flex justify-center flex-col  space-y-3 text-white sm:text-base md:text-2xl w-3/4">{
+              AboutMe.map((sen)=>(
+                <p className="text-white sm:text-base md:text-2xl">{sen}</p>
+              ))
+              }</div>
             </div>
         </div>
 
@@ -78,10 +82,10 @@ const App = () => {
          <div className="flex justify-center flex-row m-4 h-1/6 mb-8">
           <ul className=" grid  gap-6 grid-flow-col">
             <li><a className="text-white underline text-sm sm:text-lg md:text-2xl" href="https://www.linkedin.com/in/dhanush-kamath/">Linkedin</a></li>
-            <li><a className="text-white underline text-sm sm:text-lg md:text-2xl" href="mailto:julesforrest@gmail.com">Email</a></li>
+            <li><a className="text-white underline text-sm sm:text-lg md:text-2xl" href="mailto: dhanushkamath@gmail.com">Email</a></li>
             <li><a className="text-white underline text-sm sm:text-lg md:text-2xl" href="https://www.instagram.com/dhanush_kamaths/">Instagram</a></li>
             <li><a className="text-white underline text-sm sm:text-lg md:text-2xl" href="https://github.com/dhanushkamathS">Github</a></li>
-            <li><a className="text-white underline text-sm sm:text-lg md:text-2xl" href="mailto:julesforrest@gmail.com">Discord</a></li>
+            <li><a className="text-white underline text-sm sm:text-lg md:text-2xl" href="https://discordapp.com/users/757238454735339551">Discord</a></li>
           </ul>
         </div>
         

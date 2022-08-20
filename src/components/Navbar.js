@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import { Resume } from "../constants";
 export default function Navbar() {
     const [navbar, setNavbar] = useState(false);
 
@@ -63,7 +63,7 @@ export default function Navbar() {
                                 <a href="#projects">project</a>
                             </li>
                             <li className="text-gray-300 hover:text-sky-900">
-                                <a href="javascript:void(0)">Resume</a>
+                                <a href={Resume} download="Dhanush_resume">Resume</a>
                             </li>
                         </ul>
                     </div>
