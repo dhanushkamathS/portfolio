@@ -12,7 +12,7 @@ const InfoCard = () =>{
                <p className="text-white sm:text-base md:text-3xl mb-3 mt-3">backend, frontend, react native</p>
            </div>
            <div className='flex flex-row  space-x-3 sm:space-x-5 md:space-x-11 justify-center'>
-                 <Icon link="https://discordapp.com/users/757238454735339551" image={Images.discord}/>
+                 <Icon link="https://github.com/dhanushkamathS" image={Images.github}/>
                  <Icon link="https://www.instagram.com/dhanush_kamaths/" image={Images.instagram}/>
                  <Icon link="https://www.linkedin.com/in/dhanush-kamath/" image={Images.linkedin}/>
                  <Icon link="mailto: dhanushkamath@gmail.com" image={Images.gmail}/>
